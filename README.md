@@ -1,7 +1,7 @@
 # AndroidHKDF
 
 HMAC-based Extract-and-Expand Key Derivation Function (HKDF) as defined in <a href="https://tools.ietf.org/html/rfc5869">RFC 5869</a>.
-The HMAC is provided by libsodium which uses the HMAC-SHA-512/256 algorithm.
+The HMAC is provided by libsodium which uses the HMAC-SHA-512/256 algorithm. Libsodium is integrated via <a href="https://github.com/terl/lazysodium-android.git">Lazysodium</a>.
 
 ## Installation
 
