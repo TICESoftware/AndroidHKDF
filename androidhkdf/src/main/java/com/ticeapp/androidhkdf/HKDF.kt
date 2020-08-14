@@ -5,8 +5,8 @@ import com.goterl.lazycode.lazysodium.SodiumAndroid
 import com.goterl.lazycode.lazysodium.exceptions.SodiumException
 import com.goterl.lazycode.lazysodium.interfaces.Auth
 
-fun deriveHKDFKey(ikm: ByteArray, salt: ByteArray? = null, info: String = "", L: Int): ByteArray {
-    val sodium = LazySodiumAndroid(SodiumAndroid())
+fun deriveHKDFKey(ikm: ByteArray, salt: ByteArray? = null, info: String = "", L: Int, sodium: LazySodiumAndroid? = null): ByteArray {
+    val sodium = sodium ?: LazySodiumAndroid(SodiumAndroid())
 
     val hashOutputLength = Auth.BYTES
 
