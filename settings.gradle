@@ -1,3 +1,2 @@
-rootProject.name='AndroidHKDFLib'
-include ':app'
-include ':androidhkdf'
+rootProject.name = 'AndroidHKDF'
+

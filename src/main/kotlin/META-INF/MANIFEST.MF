@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: 
+Class-Path: annotations-13.0.jar kotlin-stdlib-jdk7-1.4.10.jar kotlin-st
+ dlib-1.4.10.jar hamcrest-core-1.3.jar slf4j-api-1.7.30.jar jna-5.8.0.ja
+ r lazysodium-java-5.0.1.jar junit-4.13.jar resource-loader-2.0.1.jar ko
+ tlin-stdlib-common-1.4.10.jar
+
