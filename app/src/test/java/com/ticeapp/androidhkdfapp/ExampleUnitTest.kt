@@ -1,7 +1,7 @@
 package com.ticeapp.androidhkdfapp
 
-import com.goterl.lazycode.lazysodium.LazySodiumAndroid
-import com.goterl.lazycode.lazysodium.SodiumAndroid
+import com.goterl.lazysodium.LazySodiumAndroid
+import com.goterl.lazysodium.SodiumAndroid
 import com.ticeapp.androidhkdf.deriveHKDFKey
 import org.junit.Test
 

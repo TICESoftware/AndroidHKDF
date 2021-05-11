@@ -30,8 +30,8 @@ For deriving a new key of length 32 bytes from some input keying material `ikm`:
 
 ```kotlin
 import com.ticeapp.androidhkdf.*
-import com.goterl.lazycode.lazysodium.LazySodiumAndroid
-import com.goterl.lazycode.lazysodium.SodiumAndroid
+import com.goterl.lazysodium.LazySodiumAndroid
+import com.goterl.lazysodium.SodiumAndroid
 
 val ikm = "Input key".encodeToByteArray()
 val hkdfKey = deriveHKDFKey(ikm, L = 32)

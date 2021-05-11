@@ -1,9 +1,9 @@
 package com.ticeapp.androidhkdf
 
-import com.goterl.lazycode.lazysodium.LazySodiumAndroid
-import com.goterl.lazycode.lazysodium.SodiumAndroid
-import com.goterl.lazycode.lazysodium.exceptions.SodiumException
-import com.goterl.lazycode.lazysodium.interfaces.Auth
+import com.goterl.lazysodium.LazySodiumAndroid
+import com.goterl.lazysodium.SodiumAndroid
+import com.goterl.lazysodium.exceptions.SodiumException
+import com.goterl.lazysodium.interfaces.Auth
 
 fun deriveHKDFKey(ikm: ByteArray, salt: ByteArray? = null, info: String = "", L: Int, sodium: LazySodiumAndroid? = null): ByteArray {
     val sodium = sodium ?: LazySodiumAndroid(SodiumAndroid())

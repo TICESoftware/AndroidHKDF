@@ -5,8 +5,8 @@ import android.os.Bundle
 
 import com.ticeapp.androidhkdf.*
 
-import com.goterl.lazycode.lazysodium.LazySodiumAndroid
-import com.goterl.lazycode.lazysodium.SodiumAndroid
+import com.goterl.lazysodium.LazySodiumAndroid
+import com.goterl.lazysodium.SodiumAndroid
 
 class MainActivity : AppCompatActivity() {
 
